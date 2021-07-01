@@ -3,7 +3,7 @@ export default {
   head: {
     title: 'portfolio',
     htmlAttrs: {
-      lang: 'en'
+	    lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
@@ -13,6 +13,10 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
+  },
+  target: 'static',
+  router: {
+    base: '/portfolio/'
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
